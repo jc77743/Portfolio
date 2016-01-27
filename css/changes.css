@@ -1,0 +1,98 @@
+.navbar-inverse {
+    background-color: #000;
+    border-color: #000;
+}
+.navbar-inverse .navbar-brand {
+    color: #399E7A;
+    text-transform: uppercase;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #399E7A;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #399E7A;
+}
+body {
+    font-family: 'Lato', serif;;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+body {
+	padding-top:50px;
+}
+
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+}
+.navbar-collapse {
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+  margin: 7.5px -15px;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.light-gray {
+	background-color: #DCDEE0;
+}
+.profile-image {
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.panel {
+    margin-bottom: 10px;
+    background-color: #399E7A;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #399E7A;
+    border-color: #399E7A;
+}
+.post-icon-text{
+	margin-left: 10px;
+}
+.panel-default>.linkedin {
+	background-color: #0077B5; 
+}
+.panel-default>.github {
+	background-color: #4183C4; 
+}
+.panel-default>.button {
+	background-color: #4338B5; 
+}
+.right-icon{
+	float: right;
+	margin-top: 4px;
+}
+.panel-default > a{
+	color: #fff;
+}
