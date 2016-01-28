@@ -50,6 +50,9 @@ body {
 .light-gray {
 	background-color: #DCDEE0;
 }
+.dark-gray {
+	background-color: #A6AAA9;
+}
 .profile-image {
 	width: 100%;
 	padding-top: 40px;
@@ -80,13 +83,13 @@ body {
 .post-icon-text{
 	margin-left: 10px;
 }
-.panel-default>.linkedin {
+.panel-default>a>.linkedin {
 	background-color: #0077B5; 
 }
-.panel-default>.github {
+.panel-default>a>.github {
 	background-color: #4183C4; 
 }
-.panel-default>.button {
+.panel-default>a>.button {
 	background-color: #4338B5; 
 }
 .right-icon{
@@ -95,4 +98,41 @@ body {
 }
 .panel-default > a{
 	color: #fff;
+}
+.panel-default > a:hover, a:focus {
+    text-decoration: none;
+}
+.work-title {
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px; 
+}
+.img-intro {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.item {
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+    webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.15) -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+}
+.item-title{
+	text-align: center;
+	margin: 0px;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.item-body {
+	background-color: #399E7A;
+	margin-bottom: 20px;
+}
+.item-labels {
+	text-align: center;
+	padding-bottom: 10px;
+}
+.label-default {
+    background-color: #55EAB5;
+    color: #000;
 }
