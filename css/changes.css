@@ -66,7 +66,6 @@ body {
 }
 .panel {
     margin-bottom: 10px;
-    background-color: #399E7A;
     border: 1px solid transparent;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
@@ -135,4 +134,24 @@ body {
 .label-default {
     background-color: #55EAB5;
     color: #000;
+}
+.page-title {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.panel-portfolio {
+	border-color: #399E7A;
+	margin-bottom: 5px;
+}
+
+.panel-portfolio>.panel-heading {
+    color: #fff;
+    background-color: #399E7A;
+    border-color: #399E7A;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+p {
+	margin-bottom: 5px;
 }
