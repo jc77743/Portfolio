@@ -155,3 +155,6 @@ body {
 p {
 	margin-bottom: 5px;
 }
+iframe {
+	width: 100%;
+}
