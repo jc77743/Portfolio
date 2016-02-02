@@ -155,3 +155,9 @@ body {
 p {
 	margin-bottom: 5px;
 }
+iframe {
+  width: 100%;
+}
+.accordion {
+  background-color: #399E7A;
+}
