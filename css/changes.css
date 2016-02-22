@@ -55,8 +55,10 @@ body {
 }
 .profile-image {
 	width: 100%;
-	padding-top: 40px;
-	padding-bottom: 30px;
+  max-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .panel-heading {
     padding: 10px 15px;
@@ -164,7 +166,7 @@ iframe {
 }
 .intro-text {
   font-size: 16px;
-  text-align: center;
+  margin-top: 10px;
 }
 .intro-text > a {
   color: #399E7A;
@@ -174,4 +176,11 @@ iframe {
 .intro-text > a:hover, a:focus {
   color: #399E7A;
   text-decoration: none;
+}
+.initial {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.condensed {
+  padding: 2.5%;
 }
