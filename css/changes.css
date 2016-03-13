@@ -141,6 +141,8 @@ body {
 .page-title {
 	margin-top: 30px;
 	margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .panel-portfolio {
 	border-color: #399E7A;
@@ -189,7 +191,7 @@ a:hover {
 }
 .top5-head-image {
   width: 100%;
-  height: 500px;
+  height: 300px;
   background: url(../pics/Top5.jpg) no-repeat center fixed;
   background-size: cover;
 }
@@ -201,19 +203,19 @@ a:hover {
 }
 .pwc-head-image {
   width: 100%;
-  height: 500px;
+  height: 300px;
   background: url(../pics/Pwc_2.jpg) no-repeat center fixed;
   background-size: cover;
 }
 .upmc-head-image {
   width: 100%;
-  height: 500px;
-  background: url(../pics/UPMC.jpg) no-repeat center fixed;
+  height: 300px;
+  background: url(../pics/UPMC.jpg) no-repeat bottom fixed;
   background-size: cover;
 }
 .cph-head-image {
   width: 100%;
-  height: 500px;
+  height: 300px;
   background: url(../pics/CPH_2.jpg) no-repeat center fixed;
   background-size: cover;
 }
@@ -225,7 +227,7 @@ a:hover {
 }
 .zwp-head-image {
   width: 100%;
-  height: 500px;
+  height: 300px;
   background: url(../pics/guyredhat.jpg) no-repeat bottom fixed;
   background-size: cover;
 }
@@ -272,6 +274,10 @@ a:hover {
 .footer-column > p > a:hover, a:focus {
   color: #3E6C99;
   text-decoration: none;
+}
+
+.portfolio-page {
+  padding-bottom: 30px;
 }
 
 
